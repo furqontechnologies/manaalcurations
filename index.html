@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANAAL CURATIONS</title>
+    <link rel="stylesheet" href="styles/index.css">
+    
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside>
+        <h3>MANAAL CURATIONS</h3>  
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="developer.html">About the Developer</a></li>
+        </ul>
+        
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+
+        <header>
+            <h1>MANAAL CURATIONS</h1>
+            <p>Explore the latest in gloves, shoes, and more!</p>
+        </header>
+
+        <section id="featured-products">
+            <h2>Featured Products <div class="fire">&#128293;</div></h2>
+            <div id="featured-list" class="product-list">
+                <!-- Featured products dynamically displayed here -->
+            </div>
+        </section>
+
+        <section id="other-products">
+            <h2> Explore diverse styles in our exclusive shoe collection. <span class="product-icon">&#128717;</span></h2>
+            <div id="other-list" class="product-list">
+                <!-- Other products dynamically displayed here -->
+            </div>
+        </section>
+
+        <div id="notification-bar" onclick="viewCart()">
+            <img class="notification-icon" src="icon/shopping-cart_7835563.png" alt="Notification Icon">
+            <p id="cart-notification"></p>
+        </div>
+
+        <button id="checkout-btn" onclick="checkout()">Checkout</button>
+
+                 <!-- Right Footer -->
+        <footer class="right-footer">
+            <div class="social-icons">
+            <a href="#" target="_blank"><img src="icon/facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="icons/twitter-icon.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="icons/instagram-icon.png" alt="Instagram"></a>
+           </div>
+           <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            </div>
+            </footer>
+            
+        
+
+    </main>
+
+    <div id="modal-container">
+        <!-- Other modals and content -->
+    
+        <!-- Cart modal content -->
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeCartModal()">X</span>
+                <h2>Your Cart</h2>
+                <div id="cart-content"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="manalscript.js"></script>
+
+</body>
+</html>
