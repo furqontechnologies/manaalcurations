@@ -268,7 +268,7 @@ function getCheckoutDetails() {
 function generateWhatsAppLink(checkoutDetails) {
     // Implement your logic to generate a WhatsApp link with the checkout details
     // Example: 'https://wa.me/2348101140818?text=Order%20Details:%0A-Product1%20$10%0A-Product2%20$20'
-    const phoneNumber = '2348101140819'; // Replace with your WhatsApp business number
+    const phoneNumber = '2347037661098'; // Replace with your WhatsApp business number
     const message = generateCheckoutMessage(checkoutDetails);
     const encodedMessage = encodeURIComponent(message);
     return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
