@@ -1,3 +1,4 @@
+
 /* Reset some default styles */
 body, h1, p {
     margin: 0;
@@ -5,16 +6,42 @@ body, h1, p {
 }
 
 aside {
-    width: 90px;
+    width: 100%; /* Updated width to take the full width of the page */
     background-color: rgb(70, 34, 123);
     color: #fff;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    
+    position: fixed; /* Fix the position */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    z-index: 1; /* Ensure the sidebar is above the main content */
 }
 
-ul {
-    list-style: none;
+/* Your existing styles for ul, li, a, etc. */
+
+main {
+    flex: 1;
+    padding: 20px;
+    /* Adjust the margin to make space for the sidebar */
+}
+
+/* Your existing styles for body, header, section, product-list, product, etc. */
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    aside {
+        width: 100%; /* Ensure the sidebar takes full width on smaller screens */
+    }
+    main {
+        margin-left: 0; /* Remove the margin on smaller screens */
+    }
+}
+
+
+
+ul {list-style: none;
+    display: flex;
+    justify-content: space-around;
     padding: 0;
 }
 
@@ -47,12 +74,13 @@ body {
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.15);
     background-color: white;
     border-color:rgb(192, 192, 192) ;
+    margin-top: 200px;
+    
 }
 
 /* Header styling */
 header {
-    text-align: center;
-    padding: 20px;
+    
     color: rgb(70, 34, 123) ;
     text-align: center;
     padding: 20px;
@@ -62,7 +90,11 @@ header {
     background-color: white;
     border-color:rgb(192, 192, 192) ;
 
+
 }
+
+
+
 
 /* Main content styling */
 section {
@@ -94,13 +126,13 @@ section {
 
 /* Notification bar styling */
 #notification-bar {
-    background-color: #007bff;
+    background-color: rgb(70, 34, 123) ;
     color: #fff;
     padding: 10px;
     text-align: center;
     cursor: pointer;
     position: fixed;
-    top: 250px;
+    top: 105px;
     left: 10px;
     border: 2px;
     border-radius: 10px;
@@ -120,7 +152,7 @@ section {
 }
 
 #checkout-btn {
-    background-color: #28a745;
+    background-color: rgb(70, 34, 123) ;
     color: #fff;
     border: 2px;
     border-radius: 10px;
@@ -128,8 +160,8 @@ section {
     font-size: 16px;
     cursor: pointer;
     position: fixed;
-    top: 350px;
-    left: 10px;
+    top: 105px;
+    right: 10px;
     height: 93px;
     width: 110px;
 
@@ -221,7 +253,7 @@ section {
 
 /* Add this CSS to style the right footer */
 .right-footer {
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:  rgb(38, 143, 175) ;
@@ -260,8 +292,9 @@ section {
 }
 
 .newsletter button {
-
-    color:  rgb(70, 34, 123);
+    color: rgb(70, 34, 123) ;
+    
+    
     padding: 8px 12px;
     border: none;
     cursor: pointer;
