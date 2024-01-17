@@ -68,7 +68,7 @@ main {
 
 
 body {
-    
+    display: flex;
     font-family: 'Arial', sans-serif;
     border-width: 2px;
     border-style: solid;
