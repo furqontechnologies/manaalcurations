@@ -276,7 +276,7 @@ footer {
 }
 
 .newsletter {
-    text-align: right;
+ text-align: center;
 }
 
 .newsletter h3 {
@@ -286,11 +286,11 @@ footer {
 
 .newsletter form {
     display: flex;
-    max-width: 300px;
+    max-width: 100px;
 }
 
 .newsletter input {
-    flex: 1;
+    
     padding: 8px;
 }
 
