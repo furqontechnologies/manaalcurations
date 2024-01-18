@@ -255,7 +255,7 @@ section {
 
 
 /* Add this CSS to style the right footer */
-.right-footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
