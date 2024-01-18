@@ -13,6 +13,9 @@ function createAddToCartButton(productName, productPrice) {
     const addToCartBtn = document.createElement('button');
     addToCartBtn.textContent = 'Add to Cart';
     addToCartBtn.classList.add('add-to-cart-btn');
+
+addToCartBtn.style.backgroundColor = '#46227b';
+
     addToCartBtn.addEventListener('click', () => addToCart(productName, productPrice));
     return addToCartBtn;
 }
