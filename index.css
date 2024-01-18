@@ -134,7 +134,7 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: rgb(70, 34, 123);
 }
 
 #cart-modal {
