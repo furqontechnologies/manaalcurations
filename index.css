@@ -9,16 +9,11 @@ body, h1, p {
 main {
     flex: 1;
     padding: 20px;
-    /* Adjust the margin to make space for the sidebar */
+    
 }
 
-/* Your existing styles for body, header, section, product-list, product, etc. */
 
-/* Responsive styles */
-@media (max-width: 600px) {
-    aside {
-        width: 100%; /* Ensure the sidebar takes full width on smaller screens */
-    }
+
     main {
         margin-left: 0; /* Remove the margin on smaller screens */
     }
@@ -30,18 +25,20 @@ ul {list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 0;
-}
+
+    color: rgb(70, 34, 123)} 
 
 li {
     margin-bottom: 10px;
 
-    color: rgb(70, 34, 123)}
+    color: rgb(70, 34, 123);
+} 
 
 a {
     text-decoration: none;
     color: rgb(70, 34, 123
     font-weight: bold;
-}
+    color: rgb(70, 34, 123)}
 
 a:hover {
     color: #ffcc00; /* Change the color on hover as needed */
