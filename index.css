@@ -45,14 +45,14 @@ justify-content: space-around;
 
 
 header {
-  background-color: rgb(16, 103, 48);
+  background-color: #46227b;
   color: white;
   text-align: center;
   
   padding: 1em;
   padding: 5px;
   border-radius: 10px;
-  border-color: rgb(16, 103, 48);
+  border-color: #46227b;
 
   
 }
@@ -60,7 +60,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background-color: rgb(16, 103, 48);
+  background-color: #46227b;
   padding: 1em 0;
 }
 
@@ -125,7 +125,7 @@ main {
 
 
 button {
-  background-color: rgb(16, 103, 48);
+  background-color: #46227b16;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -147,7 +147,7 @@ button:hover {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 2;
-  border-color: yellowgreen;
+  border-color: #46227b;
   border-radius: 20px;
   border-style: solid;
 }
@@ -162,7 +162,7 @@ button:hover {
 }
 
 #cart-modal button {
-  background-color: rgb(16, 103, 48);
+  background-color: #46227b;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -178,7 +178,7 @@ button:hover {
   position: fixed;
   top: 20px;
   right: 20px;
-  background-color: #333;
+  background-color: #46227b;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -192,9 +192,9 @@ button:hover {
 
 footer {
   padding: 1em;
-  background-color: rgb(16, 103, 48);
+  background-color: #46227b;
   color: white;
   text-align: center;
   border-radius: 10px;
-  border-color: rgb(16, 103, 48);
+  border-color: #46227b;
 }
