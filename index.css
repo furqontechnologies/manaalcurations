@@ -57,52 +57,7 @@ header {
   
 }
 
- #navModal {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        #navModal a {
-            padding: 15px 32px;
-            text-decoration: none;
-            font-size: 22px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        #navModal a:hover {
-            color: #f1f1f1;
-        }
-
-        #navModal .closeBtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        #openNav {
-            font-size: 30px;
-            cursor: pointer;
-            position: fixed;
-            left: 20px;
-            top: 196px;
-            z-index: 2;
-        }
-
-        #openNav:hover {
-            color: #f1f1f1;
-        }
+ 
 
 
 main {
@@ -139,7 +94,54 @@ main {
   
 }
 
+ #navModal {
+            height: 632px;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            background-color: rgb(70, 34, 123);
+            
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            border-radius: 20px;
+        }
 
+        #navModal a {
+            padding: 15px 32px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #navModal a:hover {
+            color: #f1f1f1;
+        }
+
+        #navModal .closeBtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #openNav {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            left: 20px;
+            top: 196px;
+            z-index: 2;
+        }
+
+        #openNav:hover {
+            color: #f1f1f1;
+        }
 
 
 button {
