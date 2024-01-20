@@ -57,35 +57,53 @@ header {
   
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(70, 34, 123);
-  padding: 1em 0;
-}
+ #navModal {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+        #navModal a {
+            padding: 15px 32px;
+            text-decoration: none;
+            font-size: 22px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
+        #navModal a:hover {
+            color: #f1f1f1;
+        }
 
-nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
+        #navModal .closeBtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
 
-nav a:hover {
-  color: #ffd700; /* Change to your desired hover color */
-}
+        #openNav {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            z-index: 2;
+        }
+
+        #openNav:hover {
+            color: #f1f1f1;
+        }
+
 
 main {
   padding: 20px;
