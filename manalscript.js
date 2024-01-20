@@ -8,6 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCartNotification();
 });
 
+
+function openNav() {
+            document.getElementById("navModal").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("navModal").style.width = "0";
+        }
+
+
 // Function to create an "Add to Cart" button
 function createAddToCartButton(productName, productPrice) {
     const addToCartBtn = document.createElement('button');
